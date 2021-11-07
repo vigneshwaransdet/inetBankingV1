@@ -10,7 +10,7 @@ import com.inetbanking.pageObjects.LoginPage;
 public class TC_LoginTest_001a extends BaseClass {
 	
 	@Test
-	public void loginTestnegative() throws IOException {
+	public void loginTestnegativeflow() throws IOException {
 		
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
