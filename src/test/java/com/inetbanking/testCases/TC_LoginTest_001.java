@@ -10,7 +10,7 @@ import com.inetbanking.pageObjects.LoginPage;
 public class TC_LoginTest_001 extends BaseClass {
 	
 	@Test
-	public void loginTest() throws IOException {
+	public void loginTest() throws SQLDataDocument {
 		
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
